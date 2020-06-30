@@ -24,7 +24,7 @@ function JoinSession() {
         <Title>MÍDIA</Title>
         <TitleUnderline />
         <WrapperBoxes>
-          <Grid container spacing={2}>
+          <Grid container spacing={2} align="center">
             <Grid item lg={4} md={6} xs={12}>
               <Box>
                 <BoxImage src="https://abrilviagemeturismo.files.wordpress.com/2015/12/188153847.jpg?quality=70&strip=info&w=680&h=453&crop=1" />

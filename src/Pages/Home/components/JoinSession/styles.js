@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -23,6 +24,8 @@ export const WrapperContent = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 49px 0;
+  width: 90%;
+  max-width: 1000px;
 `;
 
 export const Subtitle = styled.p`
@@ -49,7 +52,8 @@ export const CircleButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: ${props => (props.left ? '0 62px 0 0' : '0 0 0 62px')};
+  margin: ${props =>
+    props.noMargin ? 0 : props.left ? '0 62px 0 0' : '0 0 0 62px'};
   opacity: ${props => (props.disabled ? 0.6 : 1)};
 `;
 
@@ -74,4 +78,8 @@ export const GreenCircle = styled.div`
   bottom: 0;
   left: 0;
   transform: translate(-330px, 50%);
+`;
+
+export const WrapperYoutube = styled.div`
+  flex: 1;
 `;
