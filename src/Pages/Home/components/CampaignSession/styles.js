@@ -14,6 +14,9 @@ export const Subtitle = styled.p`
   text-align: center;
   margin-top: 115px;
   margin-bottom: 5px;
+  @media (max-width: 320px) {
+    font-size: 18px;
+  }
 `;
 
 export const Title = styled.p`
@@ -24,6 +27,9 @@ export const Title = styled.p`
   margin: 0 30px 38px;
   max-width: 610px;
   line-height: 48px;
+  @media (max-width: 320px) {
+    font-size: 40px;
+  }
 `;
 
 export const Body = styled.p`
@@ -33,17 +39,18 @@ export const Body = styled.p`
   text-align: center;
   max-width: 860px;
   margin: 0 40px 55px;
+  @media (max-width: 320px) {
+    font-size: 18px;
+  }
 `;
 
 export const WrapperImages = styled.div`
   margin-bottom: 144px;
-  width: 90%;
-  text-align: center;
+  max-width: 90%;
 `;
 
 export const Image = styled.img`
-  display: inline-block;
+  width: 100%;
   max-width: 378px;
   object-fit: contain;
-  margin: 10px;
 `;

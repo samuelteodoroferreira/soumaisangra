@@ -1,4 +1,6 @@
 import React from 'react';
+import { Grid } from '@material-ui/core';
+import { shape, instanceOf } from 'prop-types';
 
 import Images from '~/assets/img';
 
@@ -11,9 +13,9 @@ import {
   Image,
 } from './styles';
 
-function CampaignSession() {
+function CampaignSession({ forwardRef }) {
   return (
-    <Container>
+    <Container ref={forwardRef}>
       <Subtitle>CAMPANHA</Subtitle>
       <Title>JUNTE-SE A NÓS NESSA CAMPANHA</Title>
       <Body>
@@ -26,12 +28,24 @@ function CampaignSession() {
         amigos. Baixe aqui gratuitamente.
       </Body>
       <WrapperImages>
-        <Image src={Images.Campaign1} />
-        <Image src={Images.Campaign2} />
-        <Image src={Images.Campaign3} />
+        <Grid container spacing={2} align="center" justify="center">
+          <Grid item lg={4} md={6} xs={12}>
+            <Image src={Images.Campaign1} />
+          </Grid>
+          <Grid item lg={4} md={6} xs={12}>
+            <Image src={Images.Campaign2} />
+          </Grid>
+          <Grid item lg={4} md={6} xs={12}>
+            <Image src={Images.Campaign3} />
+          </Grid>
+        </Grid>
       </WrapperImages>
     </Container>
   );
 }
 
 export default CampaignSession;
+
+CampaignSession.propTypes = {
+  forwardRef: shape({ current: instanceOf(Element) }).isRequired,
+};

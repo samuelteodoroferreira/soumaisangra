@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
+import { shape, instanceOf } from 'prop-types';
 
 import Images from '~/assets/img';
 
@@ -15,9 +16,9 @@ import {
   FooterImage,
 } from './styles';
 
-function ContactSession() {
+function ContactSession({ forwardRef }) {
   return (
-    <Container>
+    <Container ref={forwardRef}>
       <WrapperContent>
         <Subtitle>CONTATO</Subtitle>
         <Title>FALE CONOSCO</Title>
@@ -45,3 +46,7 @@ function ContactSession() {
 }
 
 export default ContactSession;
+
+ContactSession.propTypes = {
+  forwardRef: shape({ current: instanceOf(Element) }).isRequired,
+};

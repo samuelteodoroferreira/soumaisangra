@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
+import { shape, instanceOf } from 'prop-types';
 
 import Images from '~/assets/img';
 
@@ -16,9 +17,9 @@ import {
   Text,
 } from './styles';
 
-function JoinSession() {
+function JoinSession({ forwardRef }) {
   return (
-    <Container>
+    <Container ref={forwardRef}>
       <BackgroundImage src={Images.MediaBackground} />
       <WrapperContent>
         <Title>MÍDIA</Title>
@@ -96,3 +97,7 @@ function JoinSession() {
 }
 
 export default JoinSession;
+
+JoinSession.propTypes = {
+  forwardRef: shape({ current: instanceOf(Element) }).isRequired,
+};

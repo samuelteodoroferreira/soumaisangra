@@ -37,6 +37,7 @@ export const Body = styled.p`
   font-weight: 500;
   color: #6d6d6d;
   text-align: center;
+  padding: 0 20px;
   p {
     margin-bottom: 30px;
   }
@@ -103,8 +104,8 @@ export const Outter1 = styled(OutterCircle)`
   }
 
   @media (max-width: 600px) {
-    width: 210px;
-    height: 210px;
+    width: 150px;
+    height: 150px;
   }
 `;
 
@@ -123,8 +124,8 @@ export const Inner1 = styled(InnerCircle)`
   }
 
   @media (max-width: 600px) {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
   }
 `;
 

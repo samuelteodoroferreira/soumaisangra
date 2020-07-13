@@ -1,4 +1,5 @@
 import React from 'react';
+import { shape, instanceOf } from 'prop-types';
 
 import {
   Container,
@@ -14,9 +15,9 @@ import {
   Inner2,
 } from './styles';
 
-function WomanSession() {
+function ManifestSession({ forwardRef }) {
   return (
-    <Container>
+    <Container ref={forwardRef}>
       <WrapperContent>
         <Subtitle>O MANIFESTO</Subtitle>
         <Title>O PRIMEIRO PASSO É COMPRAR ESSA IDEIA</Title>
@@ -68,4 +69,8 @@ function WomanSession() {
   );
 }
 
-export default WomanSession;
+export default ManifestSession;
+
+ManifestSession.propTypes = {
+  forwardRef: shape({ current: instanceOf(Element) }).isRequired,
+};

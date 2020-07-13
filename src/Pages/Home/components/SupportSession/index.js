@@ -1,11 +1,12 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
+import { shape, instanceOf } from 'prop-types';
 
 import { Container, Title, TitleUnderline, GridWrapper, Cell } from './styles';
 
-function Support() {
+function Support({ forwardRef }) {
   return (
-    <Container>
+    <Container ref={forwardRef}>
       <Title>APOIO</Title>
       <TitleUnderline />
       <GridWrapper>
@@ -41,3 +42,7 @@ function Support() {
 }
 
 export default Support;
+
+Support.propTypes = {
+  forwardRef: shape({ current: instanceOf(Element) }).isRequired,
+};

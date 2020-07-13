@@ -34,19 +34,22 @@ export const Title = styled.p`
   color: #fff;
   text-align: center;
   margin: 148px 30px 87px;
+  @media (max-width: 390px) {
+    font-size: 40px;
+  }
+  @media (max-width: 325px) {
+    font-size: 30px;
+  }
 `;
 
 export const WrapperBoxes = styled.div`
   margin-bottom: 144px;
   width: 90%;
-  text-align: center;
 `;
 
 export const Box = styled.div`
-  display: inline-block;
   width: 100%;
   max-width: 394px;
-  margin: 10px;
   padding: 27px 29px;
   background-color: #fff;
   border-radius: 21px;

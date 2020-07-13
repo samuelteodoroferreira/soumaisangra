@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { shape, instanceOf } from 'prop-types';
 
 import Images from '~/assets/img';
 import { Row, Column } from '~/styles/components';
@@ -17,13 +18,13 @@ import {
   WrapperYoutube,
 } from './styles';
 
-function JoinSession() {
+function JoinSession({ forwardRef }) {
   const [youtubeLinks] = useState(['tsUl2InsCNM', 'glejM2r83Gc']);
   const [actualVideo, setActualVideo] = useState(0);
   const small = useMediaQuery('(max-width:824px)');
 
   return (
-    <Container>
+    <Container ref={forwardRef}>
       <BackgroundImage src={Images.ImageJoin} />
       <WrapperContent>
         <Subtitle>PARTICIPE</Subtitle>
@@ -102,3 +103,7 @@ function JoinSession() {
 }
 
 export default JoinSession;
+
+JoinSession.propTypes = {
+  forwardRef: shape({ current: instanceOf(Element) }).isRequired,
+};
