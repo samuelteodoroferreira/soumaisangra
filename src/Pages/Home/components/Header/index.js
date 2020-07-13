@@ -15,6 +15,7 @@ function Header({
   clickContactRef,
 }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  console.log(navbarOpen);
 
   return (
     <Container>
@@ -28,20 +29,69 @@ function Header({
       {navbarOpen ? (
         <Navbox>
           <LinkText>HOME</LinkText>
-          <LinkText onClick={clickManifestRef}>MANIFESTO</LinkText>
-          <LinkText onClick={clickCampaignRef}>VÍDEOS</LinkText>
-          <LinkText onClick={clickJoinRef}>PARTICIPE</LinkText>
-          <LinkText onClick={clickTestimonyRef}>DEPOIMENTOS</LinkText>
-          <LinkText onClick={clickSupportRef}>APOIO</LinkText>
-          <LinkText onClick={clickMediaRef}>MÍDIA</LinkText>
-          <LinkText onClick={clickContactRef}>CONTATOS</LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickManifestRef();
+            }}
+          >
+            MANIFESTO
+          </LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickJoinRef();
+            }}
+          >
+            VÍDEOS
+          </LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickCampaignRef();
+            }}
+          >
+            PARTICIPE
+          </LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickTestimonyRef();
+            }}
+          >
+            DEPOIMENTOS
+          </LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickSupportRef();
+            }}
+          >
+            APOIO
+          </LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickMediaRef();
+            }}
+          >
+            MÍDIA
+          </LinkText>
+          <LinkText
+            onClick={() => {
+              setNavbarOpen(false);
+              clickContactRef();
+            }}
+          >
+            CONTATOS
+          </LinkText>
         </Navbox>
       ) : (
         <Navbox open>
           <LinkText>HOME</LinkText>
           <LinkText onClick={clickManifestRef}>MANIFESTO</LinkText>
-          <LinkText onClick={clickCampaignRef}>VÍDEOS</LinkText>
-          <LinkText onClick={clickJoinRef}>PARTICIPE</LinkText>
+          <LinkText onClick={clickJoinRef}>VÍDEOS</LinkText>
+          <LinkText onClick={clickCampaignRef}>PARTICIPE</LinkText>
           <LinkText onClick={clickTestimonyRef}>DEPOIMENTOS</LinkText>
           <LinkText onClick={clickSupportRef}>APOIO</LinkText>
           <LinkText onClick={clickMediaRef}>MÍDIA</LinkText>

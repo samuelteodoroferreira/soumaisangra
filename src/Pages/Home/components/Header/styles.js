@@ -60,10 +60,9 @@ export const Navbox = styled.div`
     position: fixed;
     width: 100%;
     justify-content: space-around;
-    padding-top: 10vh;
     background-color: #fff;
     transition: all 0.3s ease-in;
-    top: 76px;
+    top: 8vh;
     right: ${props => (props.open ? '-100%' : '0')};
     border-top: 2px solid #1c8e85;
   }
