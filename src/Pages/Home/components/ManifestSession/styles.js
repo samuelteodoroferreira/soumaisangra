@@ -71,16 +71,61 @@ export const WrapperCircles1 = styled(WrapperCircles)`
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
+
+  @media (max-width: 1280px) {
+    width: 290px;
+    height: 290px;
+  }
+
+  @media (max-width: 960px) {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media (max-width: 600px) {
+    width: 210px;
+    height: 210px;
+  }
 `;
 
 export const Outter1 = styled(OutterCircle)`
   width: 390px;
   height: 390px;
+
+  @media (max-width: 1280px) {
+    width: 290px;
+    height: 290px;
+  }
+
+  @media (max-width: 960px) {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media (max-width: 600px) {
+    width: 210px;
+    height: 210px;
+  }
 `;
 
 export const Inner1 = styled(InnerCircle)`
   width: 190px;
   height: 190px;
+
+  @media (max-width: 1280px) {
+    width: 90px;
+    height: 90px;
+  }
+
+  @media (max-width: 960px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media (max-width: 600px) {
+    width: 40px;
+    height: 40px;
+  }
 `;
 
 export const WrapperCircles2 = styled(WrapperCircles)`
@@ -89,14 +134,59 @@ export const WrapperCircles2 = styled(WrapperCircles)`
   bottom: 0;
   right: 0;
   transform: translate(527px, 200px);
+
+  @media (max-width: 1280px) {
+    width: 565px;
+    height: 565px;
+  }
+
+  @media (max-width: 960px) {
+    width: 495px;
+    height: 495px;
+  }
+
+  @media (max-width: 600px) {
+    width: 435px;
+    height: 435px;
+  }
 `;
 
 export const Outter2 = styled(OutterCircle)`
   width: 640px;
   height: 640px;
+
+  @media (max-width: 1280px) {
+    width: 565px;
+    height: 565px;
+  }
+
+  @media (max-width: 960px) {
+    width: 495px;
+    height: 495px;
+  }
+
+  @media (max-width: 600px) {
+    width: 435px;
+    height: 435px;
+  }
 `;
 
 export const Inner2 = styled(InnerCircle)`
   width: 467px;
   height: 467px;
+
+  @media (max-width: 1280px) {
+    width: 395px;
+    height: 395px;
+  }
+
+  @media (max-width: 960px) {
+    width: 335px;
+    height: 335px;
+  }
+
+  @media (max-width: 600px) {
+    width: 285px;
+    height: 285px;
+  }
 `;
