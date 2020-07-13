@@ -40,35 +40,37 @@ export const WrapperInputs = styled.div`
 export const Input = styled.input.attrs({ type: 'text' })`
   width: 100%;
   height: ${props => (props.message ? '268px' : '67px')};
-  border: 2px solid #249c81;
+  border: 2px solid ${props => (props.error ? '#e84118' : '#249c81')};
   padding: 20px;
   font-size: 24px;
   font-weight: 900;
-  color: #249c81;
+  color: ${props => (props.error ? '#e84118' : '#249c81')};
 
   ::placeholder {
     font-size: 24px;
     font-weight: 600;
-    color: #249c81;
+    color: ${props => (props.error ? '#e84118' : '#249c81')};
   }
+  transition: 300ms;
 `;
 
 export const MessageInput = styled.textarea.attrs({ type: 'text' })`
   width: 100%;
   height: 268px;
-  border: 2px solid #249c81;
+  border: 2px solid ${props => (props.error ? '#e84118' : '#249c81')};
   padding: 20px;
   font-size: 24px;
   font-weight: 900;
-  color: #249c81;
+  color: ${props => (props.error ? '#e84118' : '#249c81')};
   font-family: 'Open Sans';
   resize: vertical;
 
   ::placeholder {
     font-size: 24px;
     font-weight: 700;
-    color: #249c81;
+    color: ${props => (props.error ? '#e84118' : '#249c81')};
   }
+  transition: 300ms;
 `;
 
 export const Button = styled.div`
@@ -89,4 +91,19 @@ export const Button = styled.div`
 export const FooterImage = styled.img`
   width: 100%;
   object-fit: contain;
+`;
+
+export const Required = styled.p`
+  font-size: 14px;
+  font-weight: 600;
+  color: #249c81;
+`;
+
+export const InvalidEmail = styled.p`
+  font-size: 14px;
+  font-weight: 600;
+  color: #e84118;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
 `;
