@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { darken } from 'polished';
 
 export const Container = styled.div`
   width: 100%;
@@ -7,7 +8,6 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  /* overflow-x: hidden; */
   overflow-y: visible;
 `;
 
@@ -190,4 +190,25 @@ export const Inner2 = styled(InnerCircle)`
     width: 285px;
     height: 285px;
   }
+`;
+
+export const WrapperButton = styled.div`
+  background-color: rgb(45, 146, 116);
+  border-radius: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: background 0.4s;
+
+  &:hover {
+    background: ${darken(0.07, '#bfea00')};
+  }
+`;
+
+export const Button = styled.span`
+  color: #fff;
+  font-weight: bold;
 `;

@@ -17,15 +17,14 @@ function CampaignSession({ forwardRef }) {
   return (
     <Container ref={forwardRef}>
       <Subtitle>CAMPANHA</Subtitle>
-      <Title>JUNTE-SE A NÓS NESSA CAMPANHA</Title>
+      <Title>PARTICIPE, ESTAMOS COM VOCÊ NESSA CAMPANHA!</Title>
       <Body>
-        Qualquer um pode participar do Movimento do Sou do Rio. No caso de
-        empresas estabelecidas no estado do Rio, basta fazer o download e
-        reproduzir o Material da campanha em seus produtos originais, lojas
-        físicas, site e perfis nas redes sociais, além de disseminar o movimento
-        entre seus colaboradores. Já a população participar ao dar preferência a
-        produtos de origem fluminense e divulgando a campanha entre familiares e
-        amigos. Baixe aqui gratuitamente.
+        O seu investimento será doar amor, ao confirmar sua adesão, você
+        receberá um “kit” com peças de divulgação do movimento Todos Por Angra e
+        poderá usar em suas redes sociais, comunicados internos e mídias. Vamos
+        envolver todos ao nosso redor. Juntos, vamos movimentar toda a nossa
+        cadeia de valor - fornecedores, prestadores de serviços, distribuidores,
+        revendedores, parceiros, investidores, colaboradores, amigos, todos!
       </Body>
       <WrapperImages>
         <Grid container spacing={2} align="center" justify="center">

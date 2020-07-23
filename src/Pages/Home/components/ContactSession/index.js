@@ -41,7 +41,7 @@ function ContactSession({ forwardRef }) {
             enableReinitialize
             initialValues={{
               name: '',
-              subject: '',
+              organization: '',
               email: '',
               message: '',
             }}
@@ -63,16 +63,6 @@ function ContactSession({ forwardRef }) {
                   </Grid>
                   <Grid item sm={6} xs={12}>
                     <Input
-                      placeholder="ASSUNTO*"
-                      name="subject"
-                      value={values.subject}
-                      helperText={touched.subject ? errors.subject : ''}
-                      error={Boolean(touched.subject && errors.subject)}
-                      onChange={handleChange}
-                    />
-                  </Grid>
-                  <Grid item sm={6} xs={12} style={{ position: 'relative' }}>
-                    <Input
                       placeholder="E-MAIL*"
                       name="email"
                       value={values.email}
@@ -84,9 +74,23 @@ function ContactSession({ forwardRef }) {
                       <InvalidEmail>{errors.email}</InvalidEmail>
                     )}
                   </Grid>
+                  <Grid item sm={6} xs={12} style={{ position: 'relative' }}>
+                    <Input
+                      placeholder="ORGANIZAÇÃO*"
+                      name="organization"
+                      value={values.organization}
+                      helperText={
+                        touched.organization ? errors.organization : ''
+                      }
+                      error={Boolean(
+                        touched.organization && errors.organization
+                      )}
+                      onChange={handleChange}
+                    />
+                  </Grid>
                   <Grid item xs={12}>
                     <MessageInput
-                      placeholder="MENSAGEM*"
+                      placeholder="COMO VOCÊ DESEJA PARTICIPAR DESSA CAMPANHA*"
                       name="message"
                       value={values.message}
                       helperText={touched.message ? errors.message : ''}

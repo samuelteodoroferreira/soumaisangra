@@ -13,48 +13,37 @@ import {
   WrapperCircles2,
   Outter2,
   Inner2,
+  WrapperButton,
+  Button,
 } from './styles';
 
 function ManifestSession({ forwardRef }) {
   return (
     <Container ref={forwardRef}>
       <WrapperContent>
-        <Subtitle>O MANIFESTO</Subtitle>
-        <Title>O PRIMEIRO PASSO É COMPRAR ESSA IDEIA</Title>
+        <Subtitle>NÓS AMAMOS ANGRA</Subtitle>
+        <Title>
+          Existem muitos lugares bonitos no mundo, mas nada se compara a Angra
+          dos Reis
+        </Title>
         <Body>
           <p>
-            Sou do Rio é um movimento de adesão espontânea para empresários, a
-            Sociedade e todos que são apaixonados pelo Rio.
+            Todos por Angra é um movimento colaborativo de Amor a Angra dos
+            Reis. Só a união do governo, empresas, organizações e sociedade; vão
+            superar os desafios deixados pela pandemia e inaugurar um novo
+            normal, que será o começo de uma Angra mais organizada, mais
+            produtiva e feliz.
           </p>
           <p>
-            De quem valoriza tudo de bom que é produzido aqui Vai de Bom Jesus
-            do Itapaboana a Paraty, de Campos a Miracema. De produtos à
-            criatividade. De estilo local ao alto-astral. Mas o movimento vai
-            muito além disso. Ele começa nas linhas de produção, Passa pelas
-            gôndolas, lojas, pontos de venda e entra na vida, no seu dia a dia.
+            Aqui é o espaço para você colaborar com soluções inovadoras e
+            práticas empreendedoras para que juntos possamos retomar a economia
+            de nossa cidade.
           </p>
-          <p>
-            Participar é muito simples. Ao comprar uma manteiga, uma peça de
-            roupa, ou peça para o seu carro, Similares em preço e qualidade,
-            olhe no fundo da embalagem para conferir onde ele foi produzido.
-          </p>
-          <p>
-            Se for no Rio, não pense duas vezes. Dê a sua preferência. Você
-            ajuda a retomar o crescimento, e também faz com que cada cidadão
-            acredite e confie que podemos recuperar a força do Rio e o
-            principal, a autoestima.
-          </p>
-          <p>
-            Dar preferência a produtos fabricados no Rio faz girar a economia
-            local.
-          </p>
-          <p>
-            Você compra do Rio e o benefício volta para o Rio. Volta para você.
-          </p>
-          <p>
-            Compre essa ideia. Nós estamos fazendo a nossa parte. Vamos fazer
-            juntos?
-          </p>
+          <p>O futuro de Angra depende de nós</p>
+          <p>E e ele começa agora!</p>
+          <WrapperButton>
+            <Button>Eu amo Angra, quero fazer parte!</Button>
+          </WrapperButton>
         </Body>
       </WrapperContent>
       <WrapperCircles1>
