@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  /* object-fit: cover; */
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
+  width: 100%;
+  transform: translateY(-50px);
 `;

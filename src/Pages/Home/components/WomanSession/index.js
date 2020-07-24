@@ -7,7 +7,7 @@ import { Container, Image } from './styles';
 function WomanSession() {
   return (
     <Container>
-      <Image src={Images.ImageWomanShopping} />
+      <Image src={Images.ImageMain} />
     </Container>
   );
 }

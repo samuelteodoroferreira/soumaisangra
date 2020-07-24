@@ -1,6 +1,6 @@
 import Logo from './logo.png';
 import LogoWhite from './logo-white.png';
-import ImageWomanShopping from './image-woman-shopping.png';
+import ImageMain from './image-main.jpg';
 import ImageJoin from './image-join.png';
 import Campaign1 from './campaign-1.png';
 import Campaign2 from './campaign-2.png';
@@ -15,7 +15,7 @@ import IconTwitter from './icon-twitter.png';
 export default {
   Logo,
   LogoWhite,
-  ImageWomanShopping,
+  ImageMain,
   ImageJoin,
   Campaign1,
   Campaign2,
