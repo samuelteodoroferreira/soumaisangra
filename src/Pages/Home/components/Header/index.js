@@ -35,7 +35,7 @@ function Header({
               clickManifestRef();
             }}
           >
-            MANIFESTO
+            MOVIMENTO
           </LinkText>
           <LinkText
             onClick={() => {
@@ -89,7 +89,7 @@ function Header({
       ) : (
         <Navbox open>
           <LinkText>HOME</LinkText>
-          <LinkText onClick={clickManifestRef}>MANIFESTO</LinkText>
+          <LinkText onClick={clickManifestRef}>MOVIMENTO</LinkText>
           <LinkText onClick={clickJoinRef}>VÍDEOS</LinkText>
           <LinkText onClick={clickCampaignRef}>PARTICIPE</LinkText>
           <LinkText onClick={clickTestimonyRef}>DEPOIMENTOS</LinkText>

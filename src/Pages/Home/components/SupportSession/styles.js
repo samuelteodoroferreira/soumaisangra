@@ -26,13 +26,13 @@ export const TitleUnderline = styled.div`
 export const GridWrapper = styled.div`
   margin-bottom: 152px;
   width: 90%;
-  max-width: 1392px;
+  max-width: 800px;
 `;
 
-export const Cell = styled.div`
-  height: 296px;
+export const Image = styled.img`
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: contain;
 `;
