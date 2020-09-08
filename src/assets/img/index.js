@@ -11,6 +11,12 @@ import ImageFooter from './image-footer.png';
 import IconFacebook from './icon-facebook.png';
 import IconInstagram from './icon-instagram.png';
 import IconTwitter from './icon-twitter.png';
+import LogoBrasfels from './logo-brasfels.png';
+import LogoKeppel from './logo-keppel.png';
+import LogoNet from './logo-net.png';
+import LogoOkay from './logo-okay.png';
+import LogoPetrobras from './logo-petrobras.png';
+import LogoSplenda from './logo-splenda.png';
 
 export default {
   Logo,
@@ -26,4 +32,10 @@ export default {
   IconFacebook,
   IconInstagram,
   IconTwitter,
+  LogoBrasfels,
+  LogoKeppel,
+  LogoNet,
+  LogoOkay,
+  LogoPetrobras,
+  LogoSplenda,
 };
