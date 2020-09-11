@@ -40,16 +40,16 @@ export const WrapperInputs = styled.div`
 export const Input = styled.input.attrs({ type: 'text' })`
   width: 100%;
   height: ${props => (props.message ? '268px' : '67px')};
-  border: 2px solid ${props => (props.error ? '#e84118' : '#249c81')};
+  border: 2px solid ${props => (props.error ? '#e84118' : '#00A6A2')};
   padding: 20px;
   font-size: 24px;
   font-weight: 900;
-  color: ${props => (props.error ? '#e84118' : '#249c81')};
+  color: ${props => (props.error ? '#e84118' : '#00A6A2')};
 
   ::placeholder {
     font-size: 24px;
     font-weight: 600;
-    color: ${props => (props.error ? '#e84118' : '#249c81')};
+    color: ${props => (props.error ? '#e84118' : '#00A6A2')};
   }
   transition: 300ms;
 `;
@@ -57,18 +57,18 @@ export const Input = styled.input.attrs({ type: 'text' })`
 export const MessageInput = styled.textarea.attrs({ type: 'text' })`
   width: 100%;
   height: 268px;
-  border: 2px solid ${props => (props.error ? '#e84118' : '#249c81')};
+  border: 2px solid ${props => (props.error ? '#e84118' : '#00A6A2')};
   padding: 20px;
   font-size: 24px;
   font-weight: 900;
-  color: ${props => (props.error ? '#e84118' : '#249c81')};
+  color: ${props => (props.error ? '#e84118' : '#00A6A2')};
   font-family: 'Open Sans';
   resize: vertical;
 
   ::placeholder {
     font-size: 24px;
     font-weight: 700;
-    color: ${props => (props.error ? '#e84118' : '#249c81')};
+    color: ${props => (props.error ? '#e84118' : '#00A6A2')};
   }
   transition: 300ms;
 `;
@@ -96,7 +96,7 @@ export const FooterImage = styled.img`
 export const Required = styled.p`
   font-size: 14px;
   font-weight: 600;
-  color: #249c81;
+  color: #00a6a2;
 `;
 
 export const InvalidEmail = styled.p`

@@ -28,64 +28,65 @@ function JoinSession({ forwardRef }) {
           <Grid container spacing={2} align="center">
             <Grid item lg={4} md={6} xs={12}>
               <Box>
-                <BoxImage src="https://abrilviagemeturismo.files.wordpress.com/2015/12/188153847.jpg?quality=70&strip=info&w=680&h=453&crop=1" />
+                <BoxImage src={Images.Media1} />
                 <WrapperText>
                   <Text size={18} margin={8}>
                     DESTAQUE
                   </Text>
                   <Text weight={800} margin={10}>
-                    MÊS DOS NAMORADOS: HAJA CORAÇÃO
+                    Se você ama Angra, venha fazer parte desta campanha
                   </Text>
-                  <Text margin={10}>
+                  {/* <Text margin={10}>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                     aliquyam erat, sed
                   </Text>
                   <Text size={18} weight={800}>
                     Ler mais
-                  </Text>
+                  </Text> */}
                 </WrapperText>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box>
-                <BoxImage src="https://i.ytimg.com/vi/eSXu5BZSBHo/maxresdefault.jpg" />
+                <BoxImage src={Images.Media2} />
                 <WrapperText>
                   <Text size={18} margin={8}>
                     DESTAQUE
                   </Text>
                   <Text weight={800} margin={10}>
-                    MÊS DOS NAMORADOS: HAJA CORAÇÃO
+                    Doe seu amor a Angra dos Reis, participe.
                   </Text>
-                  <Text margin={10}>
+                  {/* <Text margin={10}>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                     aliquyam erat, sed
                   </Text>
                   <Text size={18} weight={800}>
                     Ler mais
-                  </Text>
+                  </Text> */}
                 </WrapperText>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box>
-                <BoxImage src="https://img.freepik.com/free-photo/two-beautiful-women-shopping-town_1303-16426.jpg?size=626&ext=jpg" />
+                <BoxImage src={Images.Media3} />
                 <WrapperText>
                   <Text size={18} margin={8}>
                     DESTAQUE
                   </Text>
                   <Text weight={800} margin={10}>
-                    PROMOÇÃO HAJA CORAÇÃO: POSTE E CONCORRA
+                    Faça o seu cadastro, receba o kit e saiba as vantagens de
+                    participar dessa campanha.
                   </Text>
-                  <Text margin={10}>
+                  {/* <Text margin={10}>
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                     aliquyam erat, sed
                   </Text>
                   <Text size={18} weight={800}>
                     Ler mais
-                  </Text>
+                  </Text> */}
                 </WrapperText>
               </Box>
             </Grid>

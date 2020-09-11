@@ -11,6 +11,8 @@ import {
   Body,
   WrapperImages,
   Image,
+  WrapperButton,
+  Button,
 } from './styles';
 
 function CampaignSession({ forwardRef }) {
@@ -38,6 +40,9 @@ function CampaignSession({ forwardRef }) {
             <Image src={Images.Campaign3} />
           </Grid>
         </Grid>
+        <WrapperButton onClick={() => {}}>
+          <Button>Baixe aqui o kit para participar!</Button>
+        </WrapperButton>
       </WrapperImages>
     </Container>
   );

@@ -54,3 +54,31 @@ export const Image = styled.img`
   max-width: 378px;
   object-fit: contain;
 `;
+
+export const Banner = styled.img`
+  width: 100%;
+  max-width: 1920px;
+  object-fit: contain;
+`;
+
+export const WrapperButton = styled.div`
+  margin-top: 20px;
+  background-color: #77afab;
+  border-radius: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  transition: background 0.4s;
+
+  &:hover {
+    background: #b8dcc4;
+  }
+`;
+
+export const Button = styled.span`
+  color: #fff;
+  font-weight: bold;
+`;

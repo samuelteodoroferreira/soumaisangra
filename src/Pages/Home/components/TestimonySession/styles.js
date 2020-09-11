@@ -48,6 +48,7 @@ export const WrapperBoxes = styled.div`
 `;
 
 export const Box = styled.div`
+  height: 350px;
   width: 100%;
   max-width: 394px;
   padding: 27px 29px;
@@ -64,9 +65,9 @@ export const BoxText = styled.p`
 `;
 
 export const Avatar = styled.img`
-  width: 86px;
-  height: 86px;
-  border-radius: 50px;
+  width: 56px;
+  height: 56px;
+  border-radius: 27px;
   border: none;
   overflow: hidden;
 `;

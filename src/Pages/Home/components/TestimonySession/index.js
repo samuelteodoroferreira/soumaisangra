@@ -28,39 +28,40 @@ function JoinSession({ forwardRef }) {
             <Grid item lg={4} md={6} xs={12}>
               <Box>
                 <BoxText>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed
+                  É muito fácil responsabilizar outros quando nada fazemos.
+                  Aderir à Campanha “Todos por Angra” é fazer a nossa parte em
+                  favor de toda Angra dos Reis!
                 </BoxText>
                 <Row justify="space-between" align="center">
-                  <Name>Marcos Paulo</Name>
-                  <Avatar src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" />
+                  <Name>Rosemberg Silas, empresário, Japuíba</Name>
+                  {/* <Avatar src={Images.AvatarProfile} /> */}
                 </Row>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box>
                 <BoxText>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed
+                  Eu sou “Todos por Angra” e isso significa colocar minha força
+                  em prol desta cidade que tanto tem me dado. É nada mais que
+                  ser grato a Angra dos Reis!
                 </BoxText>
                 <Row justify="space-between" align="center">
-                  <Name>Joana Sousa</Name>
-                  <Avatar src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" />
+                  <Name>Hércules Lima, empresário, Frade</Name>
+                  {/* <Avatar src={Images.AvatarProfile} /> */}
                 </Row>
               </Box>
             </Grid>
             <Grid item lg={4} md={6} xs={12}>
               <Box>
                 <BoxText>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed
+                  Ter opções de compras através de uma plataforma confiável é
+                  ótimo afinal, todo o isolamento pelo qual passamos nos ensinou
+                  um jeito novo de comprar que não precisamos abandonar quando
+                  tudo isso passar.
                 </BoxText>
                 <Row justify="space-between" align="center">
-                  <Name>Leila Vargas</Name>
-                  <Avatar src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" />
+                  <Name>Marta Junqueira, dona de casa, Jacuecanga</Name>
+                  {/* <Avatar src={Images.AvatarProfile} /> */}
                 </Row>
               </Box>
             </Grid>

@@ -41,9 +41,9 @@ function ManifestSession({ forwardRef }) {
           </p>
           <p>O futuro de Angra depende de nós</p>
           <p>E e ele começa agora!</p>
-          <WrapperButton>
+          {/* <WrapperButton>
             <Button>Eu amo Angra, quero fazer parte!</Button>
-          </WrapperButton>
+          </WrapperButton> */}
         </Body>
       </WrapperContent>
       <WrapperCircles1>

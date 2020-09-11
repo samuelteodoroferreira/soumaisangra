@@ -55,6 +55,7 @@ export const Box = styled.div`
   background-color: #fff;
   overflow: hidden;
   border-radius: 20px;
+  border: 2px solid #fff;
 `;
 
 export const BoxImage = styled.img`
@@ -73,4 +74,5 @@ export const Text = styled.div`
   color: #6d6d6d;
   margin-bottom: ${props => props.margin}px;
   text-align: left;
+  text-transform: ${props => props.upper || 'uppercase'};
 `;

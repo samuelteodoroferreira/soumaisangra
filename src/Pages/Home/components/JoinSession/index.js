@@ -19,7 +19,7 @@ import {
 } from './styles';
 
 function JoinSession({ forwardRef }) {
-  const [youtubeLinks] = useState(['tsUl2InsCNM', 'glejM2r83Gc']);
+  const [youtubeLinks] = useState(['Y4HsoV7jc74', '36kRvNiE5gg']);
   const [actualVideo, setActualVideo] = useState(0);
   const small = useMediaQuery('(max-width:824px)');
 

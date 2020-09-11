@@ -17,6 +17,10 @@ import LogoNet from './logo-net.png';
 import LogoOkay from './logo-okay.png';
 import LogoPetrobras from './logo-petrobras.png';
 import LogoSplenda from './logo-splenda.png';
+import AvatarProfile from './avatar_profile.png';
+import Media1 from './media-1.jpg';
+import Media2 from './media-2.jpg';
+import Media3 from './media-3.jpg';
 
 export default {
   Logo,
@@ -38,4 +42,8 @@ export default {
   LogoOkay,
   LogoPetrobras,
   LogoSplenda,
+  AvatarProfile,
+  Media1,
+  Media2,
+  Media3,
 };

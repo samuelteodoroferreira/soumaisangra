@@ -72,7 +72,7 @@ export const GreenCircle = styled.div`
   z-index: 4;
   width: 389px;
   height: 389px;
-  background-color: #019b81;
+  background-color: #00a6a2;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 300px;
   bottom: 0;

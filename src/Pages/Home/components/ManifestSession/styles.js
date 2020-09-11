@@ -52,14 +52,14 @@ const WrapperCircles = styled.div`
 `;
 
 const OutterCircle = styled.div`
-  background-color: #019b81;
+  background-color: #00a6a2;
   box-shadow: 0px 3px 6px #00000029;
   z-index: 1;
   border-radius: 500px;
 `;
 
 const InnerCircle = styled.div`
-  background-color: #c8e900;
+  background-color: #b8dcc4;
   box-shadow: 0px 3px 6px #00000029;
   z-index: 2;
   position: absolute;
@@ -193,7 +193,7 @@ export const Inner2 = styled(InnerCircle)`
 `;
 
 export const WrapperButton = styled.div`
-  background-color: rgb(45, 146, 116);
+  background-color: #77afab;
   border-radius: 30px;
   height: 60px;
   display: flex;
@@ -204,7 +204,7 @@ export const WrapperButton = styled.div`
   transition: background 0.4s;
 
   &:hover {
-    background: ${darken(0.07, '#bfea00')};
+    background: #b8dcc4;
   }
 `;
 
