@@ -13,11 +13,11 @@ import {
   WrapperCircles2,
   Outter2,
   Inner2,
-  // WrapperButton,
-  // Button,
+  WrapperButton,
+  Button,
 } from './styles';
 
-function ManifestSession({ forwardRef }) {
+function ManifestSession({ forwardRef, scrollTo, contactRef }) {
   return (
     <Container ref={forwardRef}>
       <WrapperContent>
@@ -41,9 +41,11 @@ function ManifestSession({ forwardRef }) {
           </p>
           <p>O futuro de Angra depende de nós</p>
           <p>E e ele começa agora!</p>
-          {/* <WrapperButton>
-            <Button>Eu amo Angra, quero fazer parte!</Button>
-          </WrapperButton> */}
+          <WrapperButton>
+            <Button onClick={() => scrollTo(contactRef)}>
+              Eu amo Angra, quero fazer parte!
+            </Button>
+          </WrapperButton>
         </Body>
       </WrapperContent>
       <WrapperCircles1>

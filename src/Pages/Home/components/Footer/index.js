@@ -23,8 +23,21 @@ function Footer() {
         </Grid>
         <Grid item sm={4} xs={12}>
           <WrapperIcons>
-            <SocialIcon src={Images.IconFacebook} />
-            <SocialIcon src={Images.IconInstagram} />
+            <SocialIcon
+              src={Images.IconFacebook}
+              onClick={() =>
+                window.open('https://www.facebook.com/todosporangra', '_blank')
+              }
+            />
+            <SocialIcon
+              src={Images.IconInstagram}
+              onClick={() =>
+                window.open(
+                  'https://www.instagram.com/todosporangra/',
+                  '_blank'
+                )
+              }
+            />
             <SocialIcon src={Images.IconTwitter} />
           </WrapperIcons>
         </Grid>

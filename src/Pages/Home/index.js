@@ -38,7 +38,11 @@ function Home() {
         clickContactRef={() => scrollToRef(contactRef)}
       />
       <WomanSession />
-      <ManifestSession forwardRef={manifestRef} />
+      <ManifestSession
+        forwardRef={manifestRef}
+        scrollTo={scrollToRef}
+        contactRef={contactRef}
+      />
       <JoinSession forwardRef={joinRef} />
       <CampaignSession forwardRef={campaignRef} />
       <TestimonySession forwardRef={testimonyRef} />

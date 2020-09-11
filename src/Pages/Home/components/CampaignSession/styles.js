@@ -60,8 +60,15 @@ export const Banner = styled.img`
   max-width: 1920px;
   object-fit: contain;
 `;
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+`;
 
 export const WrapperButton = styled.div`
+  padding: 20px;
   margin-top: 20px;
   background-color: #77afab;
   border-radius: 30px;
@@ -79,6 +86,7 @@ export const WrapperButton = styled.div`
 `;
 
 export const Button = styled.span`
+  font-size: 18px;
   color: #fff;
   font-weight: bold;
 `;

@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core';
 import { shape, instanceOf } from 'prop-types';
 
 import Images from '~/assets/img';
+import FilePDF from '~/assets/kit_folder.pdf';
 
 import {
   Container,
@@ -11,6 +12,7 @@ import {
   Body,
   WrapperImages,
   Image,
+  Wrapper,
   WrapperButton,
   Button,
 } from './styles';
@@ -40,9 +42,11 @@ function CampaignSession({ forwardRef }) {
             <Image src={Images.Campaign3} />
           </Grid>
         </Grid>
-        <WrapperButton onClick={() => {}}>
-          <Button>Baixe aqui o kit para participar!</Button>
-        </WrapperButton>
+        <Wrapper>
+          <WrapperButton onClick={() => window.open(FilePDF, '_blank')}>
+            <Button>FAÇA O DOWNLOAD DO KIT PARA PARTICIPAR!</Button>
+          </WrapperButton>
+        </Wrapper>
       </WrapperImages>
     </Container>
   );
