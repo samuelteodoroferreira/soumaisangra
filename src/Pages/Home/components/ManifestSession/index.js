@@ -13,8 +13,8 @@ import {
   WrapperCircles2,
   Outter2,
   Inner2,
-  WrapperButton,
-  Button,
+  // WrapperButton,
+  // Button,
 } from './styles';
 
 function ManifestSession({ forwardRef }) {

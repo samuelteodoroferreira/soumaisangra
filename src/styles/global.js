@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-  /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto'); */
+  /* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+
 
   * {
     margin: 0;
@@ -18,7 +18,7 @@ export default createGlobalStyle`
   body {
     background: #fff;
     -webkit-font-smoothing: antialiased !important;
-    /* font-family:  'Open Sans'; */
-    font-family: Montserrat, sans-serif;
+    font-family:  'Open Sans';
+    /* font-family: Montserrat, sans-serif; */
   }
 `;

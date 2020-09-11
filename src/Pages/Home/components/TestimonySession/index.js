@@ -13,7 +13,7 @@ import {
   WrapperBoxes,
   Box,
   BoxText,
-  Avatar,
+  // Avatar,
   Name,
 } from './styles';
 
