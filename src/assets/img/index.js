@@ -21,6 +21,9 @@ import AvatarProfile from './avatar_profile.png';
 import Media1 from './media-1.jpg';
 import Media2 from './media-2.jpg';
 import Media3 from './media-3.jpg';
+import BannerEncontre from './banner-encontre.jpg';
+import AndroidEncontre from './android-encontre.png';
+import AppleEncontre from './apple-encontre.png';
 
 export default {
   Logo,
@@ -46,4 +49,7 @@ export default {
   Media1,
   Media2,
   Media3,
+  BannerEncontre,
+  AndroidEncontre,
+  AppleEncontre,
 };

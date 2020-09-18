@@ -15,6 +15,10 @@ import {
   Wrapper,
   WrapperButton,
   Button,
+  WrapperEncontre,
+  BoxApp,
+  AndroidImage,
+  AppleImage,
 } from './styles';
 
 function CampaignSession({ forwardRef }) {
@@ -48,6 +52,28 @@ function CampaignSession({ forwardRef }) {
           </WrapperButton>
         </Wrapper>
       </WrapperImages>
+      <WrapperEncontre>
+        <BoxApp>
+          <AndroidImage
+            src={Images.AndroidEncontre}
+            onClick={() =>
+              window.open(
+                'https://play.google.com/store/apps/details?id=br.com.aplicativoencontre',
+                '_blank'
+              )
+            }
+          />
+          <AppleImage
+            src={Images.AppleEncontre}
+            onClick={() =>
+              window.open(
+                'https://apps.apple.com/br/app/encontre/id1505592518',
+                '_blank'
+              )
+            }
+          />
+        </BoxApp>
+      </WrapperEncontre>
     </Container>
   );
 }
